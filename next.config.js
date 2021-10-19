@@ -2,5 +2,5 @@ require('dotenv').config();
 
 module.exports = {
   reactStrictMode: true,
-  assetPrefix: process.env.GITHUB_PAGES ? '' : '',
+  assetPrefix: process.env.GITHUB_PAGES ? 'Website_S10' : '',
 }
